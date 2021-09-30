@@ -1,0 +1,162 @@
+html {
+    font-family: sans-serif;
+    border-color: red;
+}
+
+#hero {
+    background-color: #1F2937;
+    width: 100vw;
+    height: auto;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+}
+
+#header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns:
+        1fr auto auto auto;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 100px 10px 100px;
+    height: auto;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #F9FaF8;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+    grid-area: 1;
+}
+
+.headerLink {
+    font-size: 18px;
+    color: #e5e7eb;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+}
+
+#awesome {
+    border-style: solid;
+    border-color: red;
+    margin: 10px 100px 10px 100px;
+    
+    
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+}
+
+.signup {
+    color: #3882f6;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+}
+
+#random {
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+    width: 100vw;
+    height: auto;
+}
+
+#random h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 100px 10px 100px;
+    
+}
+
+#random #blocksection {
+    color: #1F2937;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 100px 10px 100px;
+    display: flex;
+}
+
+.blocks {
+    flex-direction: row;
+}
+
+#inspiring {
+    background-color: #E5E7EB;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+    width: 100vw;
+    height: auto;
+}
+
+#inspiring p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 100px 10px 100px;
+}
+
+#inspiring h4 {
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    left: 70%;
+    width: 200px;
+}
+
+#action {
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+    width: 100vw;
+}
+
+#callToAction {
+    background-color: #3882f6;
+    color: #F9FaF8;
+    border-style: solid;
+    border-color: red;
+    margin: 50px 75px 50px 75px;
+    
+}
+
+#footer {
+    background-color: #1F2937;
+    border-style: solid;
+    border-color: red;
+    margin: 10px 0px 10px 0px;
+    width: 100vw;
+    position: relative
+}
+
+#copyright {
+    color: #F9FaF8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
