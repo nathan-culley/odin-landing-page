@@ -1,15 +1,16 @@
 html {
     font-family: sans-serif;
-    border-color: red;
+
 }
 
 #hero {
     background-color: #1F2937;
     width: 100vw;
     height: auto;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 50px;
 }
 
 #header {
@@ -17,17 +18,17 @@ html {
     grid-auto-flow: column;
     grid-template-columns:
         1fr auto auto auto;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 100px 10px 100px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 5px 100px 100px 100px;
     height: auto;
 }
 
 .headerLogo {
     font-size: 24px;
     color: #F9FaF8;
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     margin: 10px 0px 10px 0px;
     grid-area: 1;
 }
@@ -35,48 +36,90 @@ html {
 .headerLink {
     font-size: 18px;
     color: #e5e7eb;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 10px 5px 10px 5px;
 }
 
 #awesome {
-    border-style: solid;
-    border-color: red;
-    margin: 10px 100px 10px 100px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 100px 100px 100px 100px;
     display: grid;
     grid-template-columns:
         50% 50%;
 }
 
-.mainText {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FaF8;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+#awesometext {
+    display: grid;
 }
 
-.secondaryText {
+#mainText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 10px 0px 10px 0px;
+   
+}
+
+#secondaryText {
     font-size: 18px;
     color: #E5E7EB;
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     margin: 10px 0px 10px 0px;
+ 
+}
+
+#awesomebutton {
+    width: 100px;
+}
+
+#awesomeimage {
+    /*justify-self: stretch;
+    align-self: start;*/
+    width: auto;
+    height: auto;
+    max-width: 427px;
+    max-height: 229px;
+    justify-self: end;
+    /*border-style: solid;
+    border-color: red;*/
 }
 
 .signup {
-    color: #3882f6;
-    border-style: solid;
-    border-color: red;
+    background-color: #3882f6;
+    color: #F9FaF8;
     margin: 10px 0px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    /*border-style: solid;
+    border-color: red;*/
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 #random {
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 0px 0px 0px 0px;
     width: 100vw;
     height: auto;
     position: relative;
@@ -86,17 +129,17 @@ html {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     width: 460px;
-    margin: 10px auto 10px auto;
+    margin: 100px auto 10px auto;
 }
 
 #blocksection {
     color: #1F2937;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 100px 10px 100px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 10px 100px 100px 100px;
     display: flex;
     width: auto;
 }
@@ -104,8 +147,8 @@ html {
 .blocks {
     flex-direction: row;
     width: auto;
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,9 +168,9 @@ html {
 
 #inspiring {
     background-color: #E5E7EB;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 0px 0px 0px 0px;
     width: 100vw;
     height: auto;
 }
@@ -137,39 +180,41 @@ html {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     margin: 100px 100px 10px 100px;
 }
 
 #attribution {
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     position: relative;
-    left: 70%;
-    width: 200px;
+    left: 60%;
+    width: 300px;
     margin-bottom: 100px;
+    font-size: 24px;
 }
 
 #action {
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 0px 0px 0px 0px;
     width: 100vw;
 }
 
 #callToAction {
     background-color: #3882f6;
     color: #F9FaF8;
-    border-style: solid;
-    border-color: red;
+    /*border-style: solid;
+    border-color: red;*/
     border-radius: 25px;
-    margin: 50px 75px 50px 75px;
+    margin: 100px 75px 100px 75px;
     
 }
 
 #CTAcontent {
     margin: 10px 100px 10px 100px;
+    padding: 25px 0px 25px 0px;
     display: grid;
     grid-template-areas:
         "a a a c"
@@ -178,21 +223,35 @@ html {
 
 #CTAheader {
     grid-area: a;
+    /*border-style: solid;
+    border-color: red;*/
+    align-self: end;
+    margin-bottom: 0px;
 }
 
 #CTAtext {
     grid-area: b;
+    /*border-style: solid;
+    border-color: red;*/
+    align-self: start;
+    margin-top: 0px;
 }
 
 #CTAbutton {
     grid-area: c;
+    align-self: center;
+    border-style: solid;
+    border-color: #F9FaF8;
+    /*border-style: solid;
+    border-color: red;*/
 }
 
 #footer {
     background-color: #1F2937;
-    border-style: solid;
-    border-color: red;
-    margin: 10px 0px 10px 0px;
+    /*border-style: solid;
+    border-color: red;*/
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     width: 100vw;
     position: relative
 }
